@@ -1,0 +1,22 @@
+Conclusion:
+
+1. The project's results demonstrate that the desired gain of 26 dB (20 log 20) 
+was achieved for both 180nm and 22nm technology files in a cascaded 
+amplifier biased through a current mirror, as simulated in LT Spice.
+
+2. We determined the appropriate ranges for Vbias and Vin values for the 
+180nm and 22nm technology files to ensure that all MOSFETs in the amplifier 
+circuit remained in saturation.
+
+3. The calculated gain approximately matches the required 26 dB (20 log 20) 
+value for both the 180nm and 22nm technology files.
+
+4. Our ID values for both the 180nm and 22nm technology files met the 
+criterion of having a Power Dissipation of less than 5mW.
+
+5. The Unity Gain Bandwidth was coming out to be greater than 10MHz, 
+satisfying the condition of having Unity Gain Feedback exceeding 500KHz.
+
+6. The layout for the cascode amplifier was designed using Magic in 
+compliance with design rules, then extracted into a .ext file and subsequently 
+converted into a .spice file
