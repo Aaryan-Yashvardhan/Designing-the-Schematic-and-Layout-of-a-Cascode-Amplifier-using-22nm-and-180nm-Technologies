@@ -1,0 +1,30 @@
+* SPICE3 file created from project_cascode_current_mirror.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 Vbias1 Vbias2 a_31_n43# VDD pfet w=9 l=5
++  ad=54 pd=30 as=108 ps=60
+M1001 a_10_n125# Vbias4 Vbias2 Gnd nfet w=10 l=2
++  ad=210 pd=82 as=110 ps=42
+M1002 VDD Vbiasp Vbias4 VDD pfet w=24 l=2
++  ad=672 pd=200 as=748 ps=160
+M1003 Vbias4 Vbias4 a_n35_n101# Gnd nfet w=10 l=2
++  ad=142 pd=68 as=190 ps=78
+M1004 Vbias1 Vbias4 a_51_n101# Gnd nfet w=10 l=2
++  ad=118 pd=46 as=200 ps=80
+M1005 VDD Vbias1 a_31_n43# VDD pfet w=9 l=5
++  ad=0 pd=0 as=0 ps=0
+M1006 GND Vbias4 a_10_n125# Gnd nfet w=10 l=2
++  ad=358 pd=150 as=0 ps=0
+M1007 GND Vbias4 a_n35_n101# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 a_51_n101# Vbias4 GND Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 Vbias2 Vbias2 VDD VDD pfet w=6 l=12
++  ad=42 pd=26 as=0 ps=0
+M1010 GND Vbias4 Vbias4 Gnd nfet w=3 l=32
++  ad=0 pd=0 as=0 ps=0
+M1011 Vbias4 Vbiasp VDD VDD pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 Vbias4 Gnd 2.88fF
+C1 VDD Gnd 45.90fF

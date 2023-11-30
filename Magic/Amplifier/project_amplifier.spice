@@ -1,0 +1,13 @@
+* SPICE3 file created from project_amplifier.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_15_n120# Vinput GND Gnd nfet w=12 l=2
++  ad=672 pd=160 as=348 ps=82
+M1001 a_15_n120# Vbias3 Voutput Gnd nfet w=12 l=2
++  ad=0 pd=0 as=348 ps=82
+M1002 a_15_n55# Vbias1 VDD VDD pfet w=48 l=2
++  ad=2175 pd=266 as=1392 ps=154
+M1003 a_15_n55# Vbias2 Voutput VDD pfet w=27 l=2
++  ad=0 pd=0 as=783 ps=112
+C0 VDD Gnd 8.68fF

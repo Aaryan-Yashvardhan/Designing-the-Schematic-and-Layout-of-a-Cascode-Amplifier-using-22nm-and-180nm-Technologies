@@ -1,0 +1,43 @@
+timestamp 1699270999
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+node "a_51_n101#" 40 81.9615 51 -101 ndif 200 80 0 0 0 0 0 0 0 0 0 0 0 0 117 80 0 0 0 0 0 0 0 0 0 0
+node "a_10_n125#" 40 66.5169 10 -125 ndif 210 82 0 0 0 0 0 0 0 0 0 0 0 0 111 72 0 0 0 0 0 0 0 0 0 0
+node "a_n35_n101#" 40 45.7464 -35 -101 ndif 190 78 0 0 0 0 0 0 0 0 0 0 0 0 88 52 0 0 0 0 0 0 0 0 0 0
+node "GND" 264 664.675 -55 -99 ndif 358 150 210 144 0 0 0 0 0 0 0 0 0 0 1134 430 0 0 0 0 0 0 0 0 0 0
+node "Vbias2" 98 51.9114 -8 -27 p 110 42 42 26 0 0 0 0 0 0 561 166 0 0 752 352 0 0 0 0 0 0 0 0 0 0
+node "Vbias3" 769 2875.71 -97 -23 pdif 142 68 748 160 0 0 0 0 0 0 1308 684 0 0 1466 780 0 0 0 0 0 0 0 0 0 0
+equiv "Vbias3" "Vbias4"
+node "Vbiasp" 286 7.28306e-14 -78 -29 pc 0 0 0 0 0 0 0 0 0 0 164 160 0 0 212 122 0 0 0 0 0 0 0 0 0 0
+node "a_31_n43#" 47 1.93179e-14 31 -43 pdif 0 0 108 60 0 0 0 0 0 0 0 0 0 0 208 112 0 0 0 0 0 0 0 0 0 0
+node "Vbias1" 78 33.4164 37 -2 p 118 46 54 30 0 0 0 0 0 0 165 76 0 0 727 328 0 0 0 0 0 0 0 0 0 0
+node "VDD" 1403 45899.1 -118 -80 nw 210 144 672 200 45698 860 0 0 0 0 0 0 0 0 2140 682 0 0 0 0 0 0 0 0 0 0
+cap "Vbias1" "Vbias3" 54.984
+cap "VDD" "Vbiasp" 415.138
+cap "Vbias2" "Vbias3" 35.7396
+cap "VDD" "a_31_n43#" 151.79
+cap "a_n35_n101#" "Vbias3" 23.5646
+cap "Vbias1" "a_31_n43#" 68.73
+cap "Vbias2" "a_31_n43#" 68.73
+cap "a_51_n101#" "Vbias3" 13.746
+cap "VDD" "Vbias1" 761.245
+cap "VDD" "Vbias2" 1179.35
+cap "Vbias3" "GND" 27.492
+cap "a_10_n125#" "Vbias3" 86.8815
+cap "VDD" "Vbias3" 444.882
+fet nfet 61 -125 62 -124 20 24 "Gnd!" "Vbias3" 4 0 "GND" 10 0 "a_51_n101#" 10 0
+fet nfet 21 -125 22 -124 20 24 "Gnd!" "Vbias3" 4 0 "a_10_n125#" 10 0 "GND" 10 0
+fet nfet -25 -125 -24 -124 20 24 "Gnd!" "Vbias3" 4 0 "a_n35_n101#" 10 0 "GND" 10 0
+fet nfet 61 -101 62 -100 20 24 "Gnd!" "Vbias3" 4 0 "a_51_n101#" 10 0 "Vbias1" 10 0
+fet nfet 21 -101 22 -100 20 24 "Gnd!" "Vbias3" 4 0 "Vbias2" 10 0 "a_10_n125#" 10 0
+fet nfet -25 -101 -24 -100 20 24 "Gnd!" "Vbias3" 4 0 "a_n35_n101#" 10 0 "Vbias3" 10 0
+fet nfet -87 -99 -86 -98 96 70 "Gnd!" "Vbias3" 64 0 "Vbias3" 3 0 "GND" 3 0
+fet pfet 37 -43 38 -42 45 28 "VDD" "Vbias2" 10 0 "a_31_n43#" 9 0 "Vbias1" 9 0
+fet pfet -8 -13 -7 -12 72 36 "VDD" "Vbias2" 24 0 "VDD" 6 0 "Vbias2" 6 0
+fet pfet -37 -23 -36 -22 48 52 "VDD" "Vbiasp" 4 0 "VDD" 24 0 "Vbias3" 24 0
+fet pfet -78 -23 -77 -22 48 52 "VDD" "Vbiasp" 4 0 "Vbias3" 24 0 "VDD" 24 0
+fet pfet 37 10 38 11 45 28 "VDD" "Vbias1" 10 0 "a_31_n43#" 9 0 "VDD" 9 0
+subcap "Vbias1" -2.9764

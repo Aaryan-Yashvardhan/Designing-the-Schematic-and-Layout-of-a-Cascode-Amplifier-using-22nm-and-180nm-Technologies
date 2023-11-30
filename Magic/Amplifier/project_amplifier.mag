@@ -1,0 +1,98 @@
+magic
+tech scmos
+timestamp 1699178496
+<< nwell >>
+rect -22 -65 50 55
+<< ntransistor >>
+rect 13 -85 15 -73
+rect 13 -120 15 -108
+<< ptransistor >>
+rect 13 -4 15 44
+rect 13 -55 15 -28
+<< ndiffusion >>
+rect -16 -78 -7 -73
+rect -2 -78 13 -73
+rect -16 -85 13 -78
+rect 15 -81 43 -73
+rect 15 -85 28 -81
+rect 32 -85 43 -81
+rect -16 -116 13 -108
+rect -16 -120 -9 -116
+rect -5 -120 13 -116
+rect 15 -112 28 -108
+rect 32 -112 43 -108
+rect 15 -120 43 -112
+<< pdiffusion >>
+rect -16 38 -13 44
+rect -8 38 13 44
+rect -16 -4 13 38
+rect 15 0 44 44
+rect 15 -4 26 0
+rect 30 -4 44 0
+rect -16 -50 13 -28
+rect -16 -55 -7 -50
+rect -2 -55 13 -50
+rect 15 -32 26 -28
+rect 30 -32 44 -28
+rect 15 -55 44 -32
+<< ndcontact >>
+rect -7 -78 -2 -73
+rect 28 -85 32 -81
+rect -9 -120 -5 -116
+rect 28 -112 32 -108
+<< pdcontact >>
+rect -13 38 -8 44
+rect 26 -4 30 0
+rect -7 -55 -2 -50
+rect 26 -32 30 -28
+<< psubstratepcontact >>
+rect -22 -135 -17 -130
+rect -9 -135 -5 -130
+rect 8 -135 13 -130
+<< nsubstratencontact >>
+rect -19 48 -14 52
+rect -8 48 -2 52
+rect 9 48 14 52
+<< polysilicon >>
+rect 13 44 15 47
+rect 13 -5 15 -4
+rect 13 -28 15 -27
+rect 13 -58 15 -55
+rect 13 -73 15 -70
+rect 13 -86 15 -85
+rect 13 -108 15 -107
+rect 13 -124 15 -120
+<< polycontact >>
+rect 11 -9 15 -5
+rect 11 -27 15 -23
+rect 11 -90 15 -86
+rect 10 -107 15 -103
+<< metal1 >>
+rect -22 48 -19 52
+rect -14 48 -8 52
+rect -2 48 9 52
+rect 14 48 15 52
+rect -13 44 -8 48
+rect -22 -9 11 -5
+rect -22 -27 11 -23
+rect 26 -28 30 -4
+rect -7 -67 -2 -55
+rect -22 -71 -2 -67
+rect -7 -73 -2 -71
+rect -22 -90 11 -86
+rect -22 -107 10 -103
+rect 28 -108 32 -85
+rect -9 -130 -5 -120
+rect -17 -135 -9 -130
+rect -5 -135 8 -130
+<< labels >>
+rlabel metal1 2 49 4 50 1 VDD
+rlabel metal1 -15 -8 -12 -7 1 Vbias1
+rlabel metal1 -13 -26 -10 -25 1 Vbias2
+rlabel metal1 -9 -89 -6 -88 1 Vbias3
+rlabel metal1 -9 -106 -6 -105 1 Vinput
+rlabel metal1 -15 -133 -12 -132 1 GND
+rlabel metal1 -18 -69 -15 -68 1 Voutput
+rlabel nwell 13 45 16 46 1 Gate
+rlabel space 13 -71 16 -70 1 Gate
+<< end >>
